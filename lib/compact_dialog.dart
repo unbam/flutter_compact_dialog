@@ -7,7 +7,7 @@ class CompactDialog {
   /// _contentPadding
   ///
   static final _contentPadding = const EdgeInsets.symmetric(
-    vertical: 10,
+    vertical: 10.0,
     horizontal: 20.0,
   );
 
@@ -26,7 +26,7 @@ class CompactDialog {
     double? height,
     double? radius,
     bool hasInsetPaddingHorizontal = false,
-    double insetPaddingHorizontal = 320,
+    double insetPaddingHorizontal = 320.0,
   }) {
     final radiusCircular = Radius.circular(radius ?? 15.0);
 
@@ -90,17 +90,17 @@ class CompactDialog {
     bool isCenterBody = false,
     String? primaryButtonText,
     Color? primaryButtonColor,
-    double primaryButtonRadius = 5,
+    double primaryButtonRadius = 5.0,
     Function? primaryFunction,
     String? secondaryButtonText,
     Function? secondaryFunction,
     IconData? iconData,
-    double iconSize = 80,
+    double iconSize = 80.0,
     Color? iconColor,
     int? iconDurationMilliseconds,
     bool hasProgress = false,
     Color? progressColor,
-    double progressSize = 50,
+    double progressSize = 50.0,
     Orientation orientation = Orientation.portrait,
   }) {
     final contentPadding = orientation == Orientation.portrait
@@ -245,14 +245,14 @@ class CompactDialog {
     bool isCenterBody = false,
     String primaryButtonText = 'Close',
     Color? primaryButtonColor,
-    double primaryButtonRadius = 5,
+    double primaryButtonRadius = 5.0,
     required Function primaryFunction,
     IconData? iconData,
-    double iconSize = 80,
+    double iconSize = 80.0,
     Color? iconColor,
     int? iconDurationMilliseconds,
     double radius = 15.0,
-    double width = 300,
+    double width = 300.0,
     bool barrierDismissible = true,
   }) {
     showDialog(
@@ -305,16 +305,16 @@ class CompactDialog {
     bool isCenterBody = false,
     String primaryButtonText = 'OK',
     Color? primaryButtonColor,
-    double primaryButtonRadius = 5,
+    double primaryButtonRadius = 5.0,
     required Function primaryFunction,
     String secondaryButtonText = 'Cancel',
     required Function secondaryFunction,
     IconData? iconData,
-    double iconSize = 80,
+    double iconSize = 80.0,
     Color? iconColor,
     int? iconDurationMilliseconds,
     double radius = 15.0,
-    double width = 300,
+    double width = 300.0,
     bool barrierDismissible = true,
   }) {
     showDialog(
@@ -360,7 +360,7 @@ class CompactDialog {
     String? title,
     String? body,
     bool isCenterBody = false,
-    double progressSize = 50,
+    double progressSize = 50.0,
     double radius = 15.0,
     bool barrierDismissible = false,
   }) {
