@@ -1,5 +1,7 @@
 # flutter_compact_dialog
 
+[![pub package](https://img.shields.io/pub/v/flutter_compact_dialog.svg)](https://pub.dev/packages/flutter_compact_dialog)
+
 This is compact dialog package for Flutter.
 
 ## Installation & Uses
