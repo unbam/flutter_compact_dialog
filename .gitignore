@@ -7,4 +7,6 @@
 .packages
 .pub/
 
+.fvm/flutter_sdk
+
 build/

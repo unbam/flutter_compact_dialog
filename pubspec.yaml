@@ -1,11 +1,10 @@
 name: flutter_compact_dialog
 description: This is compact dialog package for Flutter.
-version: 0.0.2
+version: 1.0.0
 homepage: https://github.com/unbam/flutter_compact_dialog
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.20.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   flutter:

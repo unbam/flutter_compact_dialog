@@ -155,7 +155,7 @@ class CompactDialog {
               child: Center(
                 child: Text(
                   title,
-                  style: ThemeData().textTheme.subtitle1!.copyWith(
+                  style: ThemeData().textTheme.titleMedium!.copyWith(
                         fontSize: 18.0,
                         fontWeight: FontWeight.bold,
                       ),
@@ -171,12 +171,12 @@ class CompactDialog {
                   ? Center(
                       child: Text(
                         body,
-                        style: ThemeData().textTheme.bodyText2,
+                        style: ThemeData().textTheme.bodyMedium,
                       ),
                     )
                   : Text(
                       body,
-                      style: ThemeData().textTheme.bodyText2,
+                      style: ThemeData().textTheme.bodyMedium,
                     ),
             )
           : SizedBox.shrink(),
@@ -189,7 +189,7 @@ class CompactDialog {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(primaryButtonRadius),
                   ),
-                  primary: primaryButtonColor,
+                  foregroundColor: primaryButtonColor,
                 ),
                 onPressed: () =>
                     primaryFunction != null ? primaryFunction() : null,
@@ -218,7 +218,7 @@ class CompactDialog {
                 splashColor: Colors.transparent,
                 child: Text(
                   secondaryButtonText,
-                  style: ThemeData().textTheme.button!.copyWith(
+                  style: ThemeData().textTheme.labelLarge!.copyWith(
                         fontSize: 16.0,
                         fontWeight: FontWeight.bold,
                       ),
